@@ -27,8 +27,10 @@ const Navbar = ({ openModal, isModalOpen }) => {
       navigationBar.style.backgroundColor = "transparent";
       navigationHeader.style.position = "static";
     }
-    cross.style.display = "none";
-    ham.style.display = "block";
+    if (window.innerWidth<=1024) {
+      cross.style.display = "none";
+      ham.style.display = "block";
+    }
   };
   useEffect(() => {
     let ham = document.getElementById("ham");
