@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section id="about">
     <div className="first-half">
-    <Image   layout="fill" objectFit="cover" src="/dentalCare.jpg" alt="dentist" />
+    <Image   layout="fill" objectFit="cover" src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/dentalCare.jpg`} alt="dentist" />
     </div>
     <div className="second-half">
       <div className="s-h-t">
@@ -19,7 +19,7 @@ const About = () => {
         <div className="s-h-l">
           <div className="check">
             <div className="image">
-            <Image   layout="fill" objectFit="contain" src="/check.png" alt="check" />
+            <Image   layout="fill" objectFit="contain" src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/check.png`} alt="check" />
             </div>
           </div>
           <div className="s-h-l-t">
@@ -34,7 +34,7 @@ const About = () => {
         <div className="s-h-l">
           <div className="check">
           <div className="image">
-            <Image   layout="fill" objectFit="contain" src="/check.png" alt="check" />
+            <Image   layout="fill" objectFit="contain" src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/check.png`} alt="check" />
             </div>
           </div>
           <div className="s-h-l-t">
@@ -49,7 +49,7 @@ const About = () => {
         <div className="s-h-l">
           <div className="check">
           <div className="image">
-            <Image   layout="fill" objectFit="contain" src="/check.png" alt="check" />
+            <Image   layout="fill" objectFit="contain" src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/check.png`} alt="check" />
             </div>
           </div>
           <div className="s-h-l-t">

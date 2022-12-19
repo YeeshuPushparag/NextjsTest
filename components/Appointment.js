@@ -46,7 +46,7 @@ var dotposition=email.lastIndexOf(".");
     <div id="appointment">
     <div className="image">
 
-    <Image   layout="fill" objectFit="contain" id="closeModal" src="/close-icon.png" alt="close" onClick={closeModal}/>
+    <Image   layout="fill" objectFit="contain" id="closeModal" src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/close-cion.png`} alt="close" onClick={closeModal}/>
     </div>
     <h4>Make Appointment</h4>
     <form onSubmit={submitAppointment}>

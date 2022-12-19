@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import React, { useState, useEffect, useRef } from 'react'
+import React from 'react'
 
 const SrvList = () => {
   return (
@@ -9,7 +9,7 @@ const SrvList = () => {
     <h3>Our Dental Services</h3>
     <h4>Preventive Care</h4>
     <div className="image">
-    <Image   layout="fill" objectFit="contain" id="closeAlert" src="/preventive-care.jpg" alt="doctor"/>
+    <Image   layout="fill" objectFit="contain"  src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/preventive-care.jpg.jpg`} alt="doctor"/>
     </div>
     <p>
       Preventive dentistry focuses on the preservation of your natural teeth. It
@@ -35,7 +35,7 @@ const SrvList = () => {
     </ul>
     <h4>Cosmetic Dentistry</h4>
     <div className="image">
-    <Image   layout="fill" objectFit="contain" id="closeAlert" src="/cosmetic.jpg" alt="doctor"/>
+    <Image   layout="fill" objectFit="contain"  src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/cosmetic.jpg`}/>
     </div>
     <p>
       Did you know that 3/4 of Americans are unhappy with the appearance of
@@ -56,7 +56,7 @@ const SrvList = () => {
     </ul>
     <h4>Restorative Services</h4>
     <div className="image">
-    <Image   layout="fill" objectFit="contain" id="closeAlert" src="/restorative.jpg" alt="doctor"/>
+    <Image   layout="fill" objectFit="contain"  src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/restorative.jpg`}/>
     </div>
     <p>
       Harmful bacteria, accidents, teeth grinding, and previously failed
@@ -73,7 +73,7 @@ const SrvList = () => {
     </ul>
     <h4>Orthodontic Services</h4>
     <div className="image">
-    <Image   layout="fill" objectFit="contain" id="closeAlert" src="/orthodontic.jpg" alt="doctor"/>
+    <Image   layout="fill" objectFit="contain"  src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/orthodontic.jpg`} alt="doctor"/>
     </div>
     <p>Orthodontics without braces? Is it possible?</p>
     <p>
@@ -87,7 +87,7 @@ const SrvList = () => {
     </p>
     <h4>Patient Comfort &amp; Technology</h4>
     <div className="image">
-    <Image   layout="fill" objectFit="contain" id="closeAlert" src="/comfort.jpg" alt="doctor"/>
+    <Image   layout="fill" objectFit="contain"  src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/comfort.jpg`} alt="doctor"/>
     </div>
     <p>
       We do everything possible to assure your comfort and well being during

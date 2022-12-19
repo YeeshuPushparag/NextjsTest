@@ -11,7 +11,7 @@ const Footer = ({isModalOpen}) => {
           <div className="icon">
             <div className="image">
 
-            <Image   layout="fill" objectFit="contain" src="/address-location-icon.png" alt="address" />
+            <Image   layout="fill" objectFit="contain" src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/address-location-icon.png`} alt="address" />
             </div>
           </div>
           <div className="address">
@@ -25,7 +25,7 @@ const Footer = ({isModalOpen}) => {
           <div className="icon">
             <div className="image">
 
-            <Image   layout="fill" objectFit="contain" src="/phone-call-icon.png" alt="phone" />
+            <Image   layout="fill" objectFit="contain" src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/phone-call-icon.png`} alt="phone" />
             </div>
           </div>
           <div className="phone">
@@ -36,7 +36,7 @@ const Footer = ({isModalOpen}) => {
           <div className="icon">
             <div className="image">
 
-            <Image   layout="fill" objectFit="contain" src="/email-icon.png" alt="email" />
+            <Image   layout="fill" objectFit="contain" src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/email-icon.png`} alt="email" />
             </div>
           </div>
           <div className="email">
