@@ -2,7 +2,7 @@ import '../styles/globals.css'
 import React, {useState} from 'react'
 import Alert from '../components/Alert';
 import Appointment from '../components/Appointment';
-import Navbar from '../components/navbar'
+import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 function MyApp({ Component, pageProps }) {
