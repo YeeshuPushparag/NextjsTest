@@ -180,7 +180,7 @@ const Navbar = ({ openModal, isModalOpen }) => {
           <Image
             layout="fill"
             objectFit="contain"
-            src={`${process.env.NEXT_PUBLIC_FAVICON}/close-icon.jpg`}
+            src={`${process.env.NEXT_PUBLIC_FAVICON}/close-icon.png`}
             alt="close"
           />
         </div>
