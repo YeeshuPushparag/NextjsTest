@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 
 const Navbar = ({ openModal, isModalOpen }) => {
   let router = useRouter();
-  const openNav = (e) => {
+  const openNav = () => {
     let ham = document.getElementById("ham");
     let cross = document.getElementById("cross");
     let navigationBar = document.getElementById("navbar");
@@ -17,7 +17,7 @@ const Navbar = ({ openModal, isModalOpen }) => {
     ham.style.display = "none";
     cross.style.display = "block";
   };
-  const closeNav = (e) => {
+  const closeNav = () => {
     let ham = document.getElementById("ham");
     let cross = document.getElementById("cross");
     let navigationBar = document.getElementById("navbar");
@@ -89,6 +89,9 @@ const Navbar = ({ openModal, isModalOpen }) => {
       }
     });
   }, []);
+useEffect(() => {
+closeNav()
+}, [router.pathname])
 
   return (
     <header id="header" className={`${router.pathname === "/404" ? "head-sticky" : ""}`}>

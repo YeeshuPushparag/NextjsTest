@@ -349,6 +349,7 @@ main {
 }
 #container .cta {
   margin: 100px 50px 20px;
+  opacity: 0;
 }
 .fade {
   animation: fade 1s ease-in-out 1 alternate forwards;
