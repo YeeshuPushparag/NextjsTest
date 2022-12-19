@@ -91,7 +91,7 @@ const Navbar = ({ openModal, isModalOpen }) => {
   }, []);
 
   return (
-    <header id="header">
+    <header id="header" className={`${router.pathname === "/404" ? "head-sticky" : ""}`}>
       <nav id="navbar" className={`${router.pathname === "/404" ? "nav-static" : ""}`}>
         <div className="logo ">
           <Link href="/">
