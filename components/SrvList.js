@@ -9,7 +9,7 @@ const SrvList = () => {
     <h3>Our Dental Services</h3>
     <h4>Preventive Care</h4>
     <div className="image">
-    <Image   layout="fill" objectFit="contain"  src={`${process.env.NEXT_PUBLIC_FAVICON}/preventive-care.jpg.jpg`} alt="doctor"/>
+    <Image   layout="fill" objectFit="contain"  src={`${process.env.NEXT_PUBLIC_FAVICON}/preventive-care.jpg`} alt="doctor"/>
     </div>
     <p>
       Preventive dentistry focuses on the preservation of your natural teeth. It
