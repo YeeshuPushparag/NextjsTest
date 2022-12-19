@@ -7,7 +7,7 @@ const DrList = () => {
     <section id="dr-list" >
     <div id="doctors-list" >
     <div className="image">
-    <Image   layout="fill" objectFit="contain"  src="/yvette.png" alt="doctor"/>
+    <Image   layout="fill" objectFit="contain"  src={`${process.env.NEXT_PUBLIC_FAVICON}/yvette.png`} alt="doctor"/>
     </div>
       <h4>Meet Dr. Yvette Chua</h4>
       <p>
@@ -37,7 +37,7 @@ const DrList = () => {
         <li>Advanced Concepts in Cosmetic Dentistry</li>
       </ul>
       <div className="image">
-    <Image   layout="fill" objectFit="contain"  src="/susana.jpeg" alt="doctor"/>
+    <Image   layout="fill" objectFit="contain"  src={`${process.env.NEXT_PUBLIC_FAVICON}/susana.jpeg`} alt="doctor"/>
     </div>
       <h4>Meet Dr. Susana Chua</h4>
       <p>
@@ -52,7 +52,7 @@ const DrList = () => {
         multi-lingual, able to speak Tagalog, Ilocano, Chinese, and Spanish.
       </p>
       <div className="image">
-    <Image   layout="fill" objectFit="contain"  src="/derrick.png" alt="doctor"/>
+    <Image   layout="fill" objectFit="contain"  src={`${process.env.NEXT_PUBLIC_FAVICON}/derrick.png`} alt="doctor"/>
     </div>
       <h4>Meet Dr. Derrick Chua</h4>
       <p>

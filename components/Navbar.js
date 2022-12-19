@@ -100,7 +100,7 @@ const Navbar = ({ openModal, isModalOpen }) => {
                 <Image
                   layout="fill"
                   objectFit="contain"
-                  src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/logo.png`}
+                  src={`${process.env.NEXT_PUBLIC_FAVICON}/logo.png`}
                   alt="logo"
                   priority
                 />
@@ -172,7 +172,7 @@ const Navbar = ({ openModal, isModalOpen }) => {
           <Image
             layout="fill"
             objectFit="contain"
-            src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/menu-icon.png`}
+            src={`${process.env.NEXT_PUBLIC_FAVICON}/menu-icon.png`}
             alt="menu"
           />
         </div>
@@ -180,7 +180,7 @@ const Navbar = ({ openModal, isModalOpen }) => {
           <Image
             layout="fill"
             objectFit="contain"
-            src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/close-icon.jpg`}
+            src={`${process.env.NEXT_PUBLIC_FAVICON}/close-icon.jpg`}
             alt="close"
           />
         </div>

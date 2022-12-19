@@ -53,7 +53,7 @@ const Doctor = () => {
       <div className="box" id="dr-box1">
         <div className="heading">
           <div className="image">
-          <Image   layout="fill" objectFit="contain" src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/yvette.png`} alt="doctor" />
+          <Image   layout="fill" objectFit="contain" src={`${process.env.NEXT_PUBLIC_FAVICON}/yvette.png`} alt="doctor" />
           </div>
           <h5>Dr. Yvette Chua</h5>
         </div>
@@ -69,7 +69,7 @@ const Doctor = () => {
         <div className="heading">
           <div className="image">
 
-          <Image   layout="fill" objectFit="contain" src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/susana.jpeg`} alt="doctor" />
+          <Image   layout="fill" objectFit="contain" src={`${process.env.NEXT_PUBLIC_FAVICON}/susana.jpeg`} alt="doctor" />
           </div>
           <h5>Dr. Susana Chua</h5>
         </div>
@@ -85,7 +85,7 @@ const Doctor = () => {
         <div className="heading">
           <div className="image">
 
-          <Image   layout="fill" objectFit="contain" src={`${process.env.PUBLIC_NEXT_IMAGESPATH}/derrick.png`} alt="doctor" />
+          <Image   layout="fill" objectFit="contain" src={`${process.env.NEXT_PUBLIC_FAVICON}/derrick.png`} alt="doctor" />
           </div>
           <h5>Dr. Derrick Chua</h5>
         </div>
