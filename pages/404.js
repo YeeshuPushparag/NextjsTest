@@ -10,6 +10,7 @@ export default function CustomError() {
     <>
      <Head>
         <title>404 | Not Found</title>
+        <link rel="icon" href={`${process.env.NEXT_PUBLIC_IMAGESPATH}/favicon.ico`} />
       </Head>
       <LoadingBar/>
  <div className="error">

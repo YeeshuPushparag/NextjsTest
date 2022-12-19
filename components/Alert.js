@@ -10,7 +10,7 @@ const Alert = () => {
     <div id="message-alert">
     <p />
     <div className="image">
-    <Image   layout="fill" objectFit="contain" id="closeAlert" src={`${process.env.NEXT_PUBLIC_FAVICON}/close-icon.png`} alt="close" onClick={closeAlert}/>
+    <Image   layout="fill" objectFit="contain" id="closeAlert" src={`${process.env.NEXT_PUBLIC_IMAGESPATH}/close-icon.png`} alt="close" onClick={closeAlert}/>
     </div>
   </div>
   )

@@ -64,7 +64,7 @@ const Service = () => {
         <div className="heading">
           <div className="image">
 
-          <Image   layout="fill" objectFit="contain" src={`${process.env.NEXT_PUBLIC_FAVICON}/teeth-whitening.png`} alt="box-image" />
+          <Image   layout="fill" objectFit="contain" src={`${process.env.NEXT_PUBLIC_IMAGESPATH}/teeth-whitening.png`} alt="box-image" />
           </div>
           <h5>Teeth Whitening</h5>
         </div>
@@ -79,7 +79,7 @@ const Service = () => {
         <div className="heading">
           <div className="image">
 
-          <Image   layout="fill" objectFit="contain" src={`${process.env.NEXT_PUBLIC_FAVICON}/teeth-cleaning.png`} alt="box-image" />
+          <Image   layout="fill" objectFit="contain" src={`${process.env.NEXT_PUBLIC_IMAGESPATH}/teeth-cleaning.png`} alt="box-image" />
           </div>
           <h5>Teeth Cleaning</h5>
         </div>
@@ -94,7 +94,7 @@ const Service = () => {
         <div className="heading">
           <div className="image">
 
-          <Image   layout="fill" objectFit="contain" src={`${process.env.NEXT_PUBLIC_FAVICON}/dental-implants.png`} alt="box-image" />
+          <Image   layout="fill" objectFit="contain" src={`${process.env.NEXT_PUBLIC_IMAGESPATH}/dental-implants.png`} alt="box-image" />
           </div>
           <h5>Dental Implants</h5>
         </div>
@@ -109,7 +109,7 @@ const Service = () => {
         <div className="heading">
           <div className="image">
 
-          <Image   layout="fill" objectFit="contain" src={`${process.env.NEXT_PUBLIC_FAVICON}/invisalign.png`} alt="box-image" />
+          <Image   layout="fill" objectFit="contain" src={`${process.env.NEXT_PUBLIC_IMAGESPATH}/invisalign.png`} alt="box-image" />
           </div>
           <h5>Invisalign</h5>
         </div>
