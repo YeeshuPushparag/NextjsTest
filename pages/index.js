@@ -6,6 +6,7 @@ import Doctor from '../components/Doctor'
 import { useEffect } from 'react'
 import Container from '../components/Container'
 import LoadingBar from '../components/LoadingBar'
+import ContactComponent from "../components/ContactComponent"
 export default function Home({ openModal}) {
   useEffect(() => {
     document.querySelector("body").className = "";
@@ -23,6 +24,7 @@ export default function Home({ openModal}) {
   <Service/>
  <About/>
  <Doctor />
+ <ContactComponent/>
 <GoogleMap/>
 </>
   )
