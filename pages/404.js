@@ -13,7 +13,7 @@ export default function CustomError() {
         <link rel="icon" href={`${process.env.NEXT_PUBLIC_IMAGESPATH}/favicon.ico`} />
       </Head>
       <LoadingBar/>
- <div className="error">
+ <div className="error_page">
     <p>404 | Not Found</p>
     <Link href="/">
     <button>Go Back To Home</button>

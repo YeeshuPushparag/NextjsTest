@@ -59,7 +59,7 @@ const Footer = ({isModalOpen}) => {
         </li>
       </ul>
     </div>
-    <p>Copyright &copy; Created by Yeeshu Pushparag.</p>
+    <p>Copyright &copy; Created by <a href="https://yeeshupushparag.github.io/" className="creator"  target='_blank' rel="noreferrer" >Yeeshu Pushparag</a></p>
   </footer>
   )
 }

@@ -709,7 +709,11 @@ footer h3 {
 }
 footer >p{
   text-align: center;
-  padding: 10px 0px;
+  margin-top: 20px;
+}
+footer .creator{
+  color: #38aed4;
+  text-decoration: none;
 }
 footer .box {
   display: flex;
@@ -826,7 +830,7 @@ footer .box .contact-info .info-box .icon {
   margin: 30px 300px 20px 100px;
 }
 
-.error {
+.error_page {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -834,12 +838,12 @@ footer .box .contact-info .info-box .icon {
   width: 100%;
   height: 100vh;
 }
-.error p {
+.error_page p {
   font-size: 1.6rem;
   letter-spacing: 4px;
   margin-bottom: 10px;
 }
-.error button {
+.error_page button {
   margin-top: 10px;
   cursor: pointer;
   padding: 10px 20px;
@@ -1098,7 +1102,10 @@ footer .box .contact-info .info-box .icon {
     margin: 20px 0px;
   }
   footer {
-    padding: 30px 0px 10px;
+    padding: 30px 0px;
+  }
+  footer>p{
+    margin-top: 0px;
   }
   .service-container {
     margin: 20px;
